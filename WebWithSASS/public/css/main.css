@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+}
+.main-nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.main-nav__item {
+  float: left;
+}
+.main-nav__link {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.main-nav__link:hover {
+  color: #e6ae48;
+}
+
+.button {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button.yellow {
+  background-color: #e6ae48;
+  color: white;
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */
