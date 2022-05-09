@@ -1,0 +1,25 @@
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.box ul{
+    width: 100%;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(340px, auto);
+    background-color: aliceblue;
+}
+
+.img {
+    width: 200px;
+}
+
+.Container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
